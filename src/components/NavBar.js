@@ -23,7 +23,7 @@ export default function NavBar() {
     
     return (
         <>
-            <header className='text-black z-[2] fixed top-0' >
+            <header className='text-black z-[2] fixed top-0 w-full' >
                 <nav className='flex px-3 md:px-12 py-2 justify-between items-center   bg-blue-400 text-white fixed w-full md:absolute' id='nav'>
                     <div className='part-1 flex items-center '>
                         <span className='text-2xl md:text-3xl cursor-pointer text-white font-medium'>#Sejal</span>
@@ -31,20 +31,20 @@ export default function NavBar() {
                     <div className='part-2  '>
                         <ul className='px-2 hidden md:flex items-center text-base '>
                             <li className='px-2 cursor-pointer  hover:scale-110 transition-all duration-200 underline underline-offset-4 hover:text-yellow-200  '>
-                                {/* <Link to={"home"} smooth duration={500} >Home</Link> */}
-                                Home
+                                <Link to={"home"} smooth duration={500} >Home</Link>
+                                
                             </li>
                             <li className='px-2 cursor-pointer  hover:scale-110 transition-all duration-200 hover:underline hover:underline-offset-4 hover:text-yellow-200 '>
-                                {/* <Link to={"about"} smooth duration={500} >About</Link> */}
-                                About
+                                <Link to={"about"} smooth duration={500} >About</Link>
+                                
                             </li>
                             <li className='px-2 cursor-pointer hover:scale-110 transition-all duration-200 hover:underline hover:underline-offset-4 hover:text-yellow-200'>
-                                {/* <Link to={"portfolio"} smooth duration={500} >Portfolio</Link> */}
-                                Portfolio
+                                <Link to={"portfolio"} smooth duration={500} >Portfolio</Link>
+                                
                             </li>
                             <li className='pl-2 cursor-pointer hover:scale-110 transition-all duration-200 hover:underline hover:underline-offset-4 hover:text-yellow-200 '>
-                                {/* <Link to={"contact"} smooth duration={500} >Contact</Link> */}
-                                Contact
+                                <Link to={"contact"} smooth duration={500} >Contact</Link>
+                                
                             </li>
                         </ul>
 
