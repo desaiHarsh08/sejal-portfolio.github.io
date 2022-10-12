@@ -39,7 +39,7 @@ export const MyFooter = () => {
             </ul>
           </div>
         </div>
-        <p className="text-center text-slate-400 mt-14 mb-10 sm:mb-5">Copyright &copy; fulchandbalbhudhe149. All rights reserved.
+        <p className="text-center text-slate-400 mt-14 mb-10 sm:mb-5">Copyright &copy; sejal.b.harde@gmail.com. All rights reserved.
         </p>
       </div>
     </footer>
