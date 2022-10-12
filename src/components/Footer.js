@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 // import { Link } from 'react-scroll'
 
 export const MyFooter = () => {
@@ -13,13 +14,13 @@ export const MyFooter = () => {
           <div className='w-[100%] md:w-[30%]'>
             <ul className="space-y-4 my-5">
               <li className='cursor-pointer'>
-                <a href='/' smooth duration={500} >About</a>
+                <Link to='about' smooth duration={500} >About</Link>
               </li>
               <li className='cursor-pointer'>
-                <a href='/' smooth duration={500} >Portfolio</a>  
+                <Link href='portfolio' smooth duration={500} >Portfolio</Link>  
               </li>
               <li className='cursor-pointer'>
-                <a href='/' smooth duration={500} >Contact</a>
+                <Link to='contact' smooth duration={500} >Contact</Link>
               </li>
             </ul>
           </div>
@@ -28,10 +29,10 @@ export const MyFooter = () => {
             <ul className="social-media text-center flex justify-center md:justify-start items-center space-x-4 mt-7 sm:mt-0">
               <li className="py-5 sm:py-0 h-[50px]"><a href="/" target={"_blank"} rel="noreferrer"><i className="fa-brands fa-facebook text-xl pr-3 py-1 text-blue-600 hover:text-blue-500 "></i></a>
               </li>
-              <li className="py-5 sm:py-0 h-[50px]"><a href="https://wa.me/919322585046" target="_blank" rel="noreferrer"><i
+              <li className="py-5 sm:py-0 h-[50px]"><a href="https://wa.me/918007218085" target="_blank" rel="noreferrer"><i
                     className="fa-brands fa-whatsapp text-xl px-2 py-1 text-green-600 hover:text-green-500"></i></a>
               </li>
-              <li className="py-5 sm:py-0 h-[50px] "><a href="/"><i
+              <li className="py-5 sm:py-0 h-[50px] "><a href="https://www.instagram.com/sejal_harde/" target="_blank" rel="noreferrer"><i
                     className="fa-brands fa-instagram text-xl px-2 py-1 text-red-600 hover:text-red-300"></i></a></li>
               <li className="py-5 sm:py-0 h-[50px] hover:text-slate-500"><a href="/" target="_blank" rel="noreferrer"><i
                     className="fa-brands fa-github text-xl px-2 py-1 "></i></a></li>

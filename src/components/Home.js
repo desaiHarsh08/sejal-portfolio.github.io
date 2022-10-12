@@ -58,10 +58,12 @@ export default function Home() {
                             <i class="fa-brands fa-facebook"></i>
                         </li>
                         <li className='cursor-pointer transition-all text-green-500 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-green-500 hover:text-white '>
-                            <i class="fa-brands fa-whatsapp"></i>
+                          <a href='https://wa.me/918007218085' target={"_blank"} rel="noreferrer"  >
+                            <i class="fa-brands fa-whatsapp"></i></a>
                         </li>
                         <li className='cursor-pointer transition-all text-red-500 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-red-500 hover:text-white '>
-                            <i class="fa-brands fa-instagram"></i>
+                          <a href='https://www.instagram.com/sejal_harde/' rel="noreferrer" target={"_blank"} >
+                            <i class="fa-brands fa-instagram"></i></a>
                         </li>
                         <li className='cursor-pointer transition-all hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-black hover:text-white '>
                             <i class="fa-brands fa-github"></i>
